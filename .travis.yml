@@ -8,4 +8,5 @@ python:
   - nightly
 script:
   - python setup.py install
+  - pip install pyasn1==0.0.11a0
   - pip install -e '.[subjectAltName_support]'

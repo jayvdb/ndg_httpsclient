@@ -121,8 +121,8 @@ setup(
             'test/pki/ca/*.0'
             ],
     },
-    install_requires = ['PyOpenSSL'],
-    extras_require = {'subjectAltName_support': 'pyasn1'},
+    install_requires = ['PyOpenSSL', 'pyasn1>=0.0.13'],
+    extras_require = {'subjectAltName_support': []},
     classifiers = [
         'Development Status :: 3 - Alpha',
         'Environment :: Console',
